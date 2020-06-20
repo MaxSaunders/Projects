@@ -1,0 +1,43 @@
+/******************************************************************************
+//The Josephus Problem
+//for n soldiers
+//n = 2^a + l (where 2^a is the biggest power of 2) l < 2a
+//W(n) = 2l + 1
+//find the living soldier for the josephus problem
+//when user inputs an integer, n number of soldiers
+*******************************************************************************/
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int n;
+    int l;
+    int base;
+    int power;
+    int result;
+    printf("Hello and Welcome to the Josephus Problem Calculator!\n");
+    printf("Please enter the number of soldiers in the circle: \n");
+    scanf("%d", &n);
+    
+    if(n < 1){
+        printf("The number you enetered is invalid");
+    }
+    if(n >= 1){
+        for(int i = 0; i < n; i++){
+            if(pow(2, i) <= n){
+                base = i;
+                power = pow(2, i);
+            }
+        }
+        printf("The largest power of 2 found is: 2^%d", base);
+        
+        l = n - power;
+        result = 2*l + 1;
+        printf("\n\nThe safe soldier will be soldier #%d", result);
+    }
+    
+    return 0;
+}
+

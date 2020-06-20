@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1555713399 source:d:\school\data structures\project 3\test_cases\testcase01.c
+	<stdio.h>
+	<stdlib.h>
+	"KindredSpirits.h"
+
+1555713399 d:\school\data structures\project 3\test_cases\kindredspirits.h
+
+1555714040 source:d:\school\data structures\project 3\kindred spirits.c
+	<stdio.h>
+	<stdlib.h>
+	"KindredSpirits.h"
+
+1555713399 d:\school\data structures\project 3\kindredspirits.h
+
+1555713399 source:d:\school\data structures\project 3\test_cases\testcase03.c
+	<stdio.h>
+	<stdlib.h>
+	"KindredSpirits.h"
+
+1555713399 source:d:\school\data structures\project 3\test_cases\testcase04.c
+	<stdio.h>
+	<stdlib.h>
+	"KindredSpirits.h"
+
